@@ -7,32 +7,39 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <h1>AI Poem Generator</h1>
-    <main>
-      <form action="">
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          required
-          autofocus
-        />
-        <input type="submit" />
-      </form>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            required
+            autofocus
+            class="input-form"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
 
-      <div>
-        Poem line 1
-        <br />
-        Poem line 2
-      </div>
-    </main>
+        <div class="poem">
+          Poem line 1
+          <br />
+          Poem line 2
+        </div>
+      </main>
 
-    <footer>
-      This product was coded by Kate Lemass and is
-      <a href="https://github.com/katel-web/poem-generator">
-        open sourced on GitHub</a
-      >
-      and is <a href="https://poem-generater.netlify.app/">hosted on Netlify</a>
-    </footer>
+      <footer>
+        This product was coded by
+        <a href="https://github.com/katel-web"> Kate Lemass</a> and is
+        <a href="https://github.com/katel-web/poem-generator">
+          open-sourced on GitHub</a
+        >
+        and is
+        <a href="https://poem-generater.netlify.app/">hosted on Netlify</a>
+      </footer>
+    </div>
   </body>
   <script src="src/index.js"></script>
 </html>
